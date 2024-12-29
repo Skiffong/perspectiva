@@ -9,7 +9,7 @@ const data = [
     price: "150 BYN",
     date: "01.01.2025",
     count: "10 мест",
-    img: "../src/assets/avto_card_catA.png",
+    img: "avto_card_catA.png",
     id: 1,
   },
   {
@@ -17,7 +17,7 @@ const data = [
     price: "320 BYN",
     date: "07.01.2025",
     count: "8 мест",
-    img: "../src/assets/avto_card_catB.png",
+    img: "avto_card_catB.png",
     id: 2,
   },
   {
@@ -25,7 +25,7 @@ const data = [
     price: "550 BYN",
     date: "11.01.2025",
     count: "3 мест",
-    img: "../src/assets/avto_card_catC.png",
+    img: "avto_card_catC.png",
     id: 3,
   },
   {
@@ -33,7 +33,7 @@ const data = [
     price: "150 BYN",
     date: "15.01.2025",
     count: "5 мест",
-    img: "../src/assets/avto_card_catCE.png",
+    img: "avto_card_catCE.png",
     id: 4,
   },
   {
@@ -41,7 +41,7 @@ const data = [
     price: "450 BYN",
     date: "15.01.2025",
     count: "5 мест",
-    img: "../src/assets/avto_card_catD.png",
+    img: "avto_card_catD.png",
     id: 5,
   },
   {
@@ -49,7 +49,7 @@ const data = [
     price: "50 BYN",
     date: "15.01.2025",
     count: "5 мест",
-    img: "../src/assets/avto_card_catTaxi.png",
+    img: "avto_card_catTaxi.png",
     id: 6,
   },
   {
@@ -57,7 +57,7 @@ const data = [
     price: "170 BYN",
     date: "12.01.2025",
     count: "7 мест",
-    img: "../src/assets/avto_card_catCE_1.png",
+    img: "avto_card_catCE_1.png",
     id: 7,
   },
 ];
