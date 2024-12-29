@@ -16,7 +16,7 @@ export default function AppLayout() {
 
   return (
     <>
-      <Router>
+      <Router basename="/perspectiva">
         <Layout style={{ minHeight: "100vh" }}>
           <AppHeader />
           <Layout style={{ flex: "1 0 auto" }}>
