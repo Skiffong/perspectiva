@@ -1,0 +1,45 @@
+.ant-carousel .slick-next::after,
+.ant-carousel .slick-prev::after {
+  width: 30px;
+  height: 30px;
+  border-inline-width: 3px 0;
+  border-block-width: 3px 0;
+}
+
+.ant-carousel .slick-next,
+.ant-carousel .slick-prev {
+  width: 40px;
+  height: 40px;
+}
+
+
+.ant-carousel .slick-dots {
+  z-index: 0;
+}
+
+.autoCarousel {
+  padding: 0 30px;
+}
+
+.autoContent {
+  width: 100%;
+  height: calc(100vh - 230px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+
+
+
+@media (max-width: 770px) {
+
+  .ant-carousel .slick-next::after,
+  .ant-carousel .slick-prev::after {
+    width: 15px;
+    height: 15px;
+    border-inline-width: 2px 0;
+    border-block-width: 2px 0;
+  }
+}

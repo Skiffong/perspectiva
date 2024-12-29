@@ -1,0 +1,67 @@
+.ant-layout .ant-layout-header.headerStyle {
+  text-align: center;
+  height: auto;
+  width: 100%;
+  background-color: #118707;
+  padding: 10px 50px;
+  box-shadow: 0px 0px 90px 20px rgba(0, 0, 0, 0.7) inset;
+
+}
+
+.ant-form-item .ant-form-item-explain-error {
+  position: relative;
+  margin-top: -60px;
+}
+
+.ant-form-item {
+  margin-bottom: 10px;
+}
+
+.ant-input-number {
+  width: 100%;
+}
+
+
+
+.ant-input-number-outlined.ant-input-number-status-error:not(.ant-input-number-disabled),
+.ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) {
+  border-width: 2px;
+}
+
+.formStyle {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 550px;
+  background-color: rgb(254, 253, 151);
+  box-shadow: 0px 0px 10px 10px rgba(65, 161, 21, 0.52);
+}
+
+
+.formSizeWide {
+  margin: 0 0 0 auto;
+}
+
+.formSizeMobile {
+  width: 80%;
+}
+
+.ant-radio-wrapper .ant-radio-checked .ant-radio-inner,
+.ant-btn-variant-solid {
+  background-color: rgb(65, 161, 21);
+}
+
+.ant-row.ant-form-item-row,
+.ant-radio-group.ant-radio-group-outline {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.formInputStyle {
+  width: 60%;
+}
+
+.ant-form-item .ant-form-item-label {
+  text-align: start;
+}

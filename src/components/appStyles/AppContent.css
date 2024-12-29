@@ -1,0 +1,14 @@
+.contentStyle {
+  text-align: center;
+  color: #fefd97;
+  background-color: #130e0a;
+  overflow: initial;
+}
+
+.contentStyleDesk {
+  margin-left: 20%;
+}
+
+.contentStyleMobile {
+  margin-left: 80px;
+}

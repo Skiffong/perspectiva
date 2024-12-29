@@ -1,0 +1,36 @@
+.home {
+  background-image: url('../../assets/road.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fafafa;
+  min-height: calc(100vh - 215.6px);
+}
+
+.ant-col .ant-typography {
+  color: #fed502;
+}
+
+.card {
+  height: 90%;
+  margin: 15px;
+  background-color: #fefd97;
+  border: none;
+  box-shadow: 0px 0px 40px 15px rgba(0, 0, 0, 0.5) inset;
+}
+
+.cardImg {
+  max-width: 100px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.ant-card .ant-card-body {
+  padding: 12px 24px;
+}
+
+@media (max-width: 770px) {
+  .ant-col .ant-typography {
+    font-size: 30px;
+  }
+}

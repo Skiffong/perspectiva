@@ -1,0 +1,79 @@
+.pricesTitle {
+  margin: 10px 0;
+}
+
+.ant-tabs .ant-tabs-tabpane {
+  color: #118707;
+}
+
+.ant-card-head-title {
+  font-size: 20px;
+}
+
+.priceCard {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #fefd97;
+  box-shadow: 0px 0px 40px 15px rgba(0, 0, 0, 0.5) inset;
+
+}
+
+.priceCard .ant-card-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 16px;
+}
+
+.priceCard .cardImg {
+  max-width: 100px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.ant-tabs-card>.ant-tabs-nav .ant-tabs-tab {
+  background-color: #118707;
+  color: #fff;
+  border-color: #118707;
+}
+
+.ant-tabs-card.ant-tabs-top>.ant-tabs-nav .ant-tabs-tab-active {
+  border-bottom-color: #fefd97;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fefd97;
+  text-shadow: 0 0 0.55px currentcolor;
+}
+
+@media (max-width: 770px) {
+
+  .pricesTitle {
+    margin: 5px 0;
+  }
+
+  .ant-card-head-title {
+    font-size: 16px;
+  }
+
+  .priceCard .ant-card-body {
+    font-size: 14px;
+  }
+
+  .ant-tabs-card>.ant-tabs-nav .ant-tabs-tab {
+    background-color: #118707;
+    color: #fff;
+    border-color: #118707;
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+
+  .priceCard {
+    width: 90%;
+  }
+
+  .priceCard .ant-card-body {
+    flex-direction: column;
+  }
+}

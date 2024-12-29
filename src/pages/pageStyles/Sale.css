@@ -1,0 +1,38 @@
+.sale {
+  min-height: calc(100vh - 215.6px);
+  background-image: url("../../assets/sale3.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.saleTitle {
+  font-size: 42px;
+  margin-bottom: 10px;
+  color: #fed502;
+}
+
+.saleItem {
+  background-color: #118707;
+  font-size: 20px;
+  padding: 15px;
+}
+
+@media (max-width: 770px) {
+
+  .sale {
+    min-height: calc(100vh - 124px);
+    background-image: url("../../assets/sale3_mob.jpg");
+    background-position: right;
+  }
+
+  .saleTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .saleItem {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

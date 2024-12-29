@@ -1,0 +1,61 @@
+.btnBurger {
+  background-color: #118707;
+  box-shadow: 0px 0px 10px 10px rgba(65, 161, 21, 0.52);
+  font-size: 16px;
+  width: 32px;
+  height: 32px;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+a {
+  color: #fefd97;
+}
+
+a:hover {
+  color: #118707;
+}
+
+.ant-menu-light .ant-menu-item-selected {
+  background-color: #fefd97;
+  color: black;
+}
+
+.ant-menu-light .ant-menu-submenu-selected>.ant-menu-submenu-title {
+  color: #fefd97;
+}
+
+.siderStyle {
+  background-color: #130e0a;
+  text-align: center;
+  z-index: 10;
+  overflow: auto;
+  height: 100vh;
+  position: fixed;
+  padding: 10px;
+  top: 0;
+  bottom: 0;
+  inset-inline-start: 0;
+}
+
+
+.ant-menu-light.ant-menu-root.ant-menu-inline.menuStyleMobile {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.ant-menu-light.ant-menu-root.ant-menu-inline.menuStyle,
+.ant-layout-sider .ant-layout-sider-children .ant-menu.ant-menu-inline-collapsed {
+  border-radius: 10px;
+  background-color: #118707;
+  box-shadow: 4px 4px 40px 30px rgba(65, 161, 21, 0.52);
+}
+
+.ant-image .ant-image-img.iconStyle {
+  width: 32px;
+  height: 32px;
+  margin: 0 10px;
+}
