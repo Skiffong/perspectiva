@@ -5,7 +5,6 @@ import {
   FileDoneOutlined,
   GiftOutlined,
   CarOutlined,
-  SearchOutlined,
   DollarOutlined,
   MenuFoldOutlined,
   MenuUnfoldOutlined,
